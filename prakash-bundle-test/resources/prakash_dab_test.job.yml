@@ -1,6 +1,0 @@
-resources:
-  jobs:
-    prakash_dab_test:
-      name: prakash_dab_test
-      queue:
-        enabled: true
