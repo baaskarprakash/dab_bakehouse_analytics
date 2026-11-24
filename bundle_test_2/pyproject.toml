@@ -1,8 +1,8 @@
 [project]
-name = "bakehosue_analytics"
+name = "bundle_test_2"
 version = "0.0.1"
-authors = [{ name = "databeli14@gmail.com" }]
-requires-python = ">=3.10,<3.13"
+authors = [{ name = "prakash.baskar@happiestminds.com" }]
+requires-python = ">=3.12,<3.13"
 dependencies = [
     # Any dependencies for jobs and pipelines in this project can be added here
     # See also https://docs.databricks.com/dev-tools/bundles/library-dependencies
@@ -16,12 +16,12 @@ dev = [
     "pytest",
     "ruff",
     "databricks-dlt",
-    "databricks-connect>=15.4,<15.5",
+    "databricks-connect>=16.4,<16.5",
     "ipykernel",
 ]
 
 [project.scripts]
-main = "bakehosue_analytics.main:main"
+main = "bundle_test_2.main:main"
 
 [build-system]
 requires = ["hatchling"]
